@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KA商城登录</title>
+        <meta name="keywords" content="" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="format-detection" content="telephone=no, email=no" />
+        <meta name="360-fullscreen" content="true" /> 
+        <!-- QQ强制竖屏 -->
+        <meta name="x5-orientation" content="portrait">
+        <!-- QQ强制全屏 -->
+        <meta name="x5-fullscreen" content="true">
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app">
+        <!-- UC强制全屏 -->
+        <meta name="full-screen" content="yes">
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application">
+        <!-- uc强制竖屏 -->
+        <meta name="screen-orientation" content="portrait">
+        <!-- 重置样式引入 -->
+        <link type="text/css" rel="stylesheet" href="css/base.css"/>
+        <!-- 登录样式引入 -->
+        <link type="text/css" rel="stylesheet" href="css/login.css"/>
+    </head>
+    <body>
+    <div class="login-body">
+    	<p><img src="Images/login.jpg"></p>
+    </div>
+    <div class="login-box">
+    	<div class="logo"><img src="Images/logo.png"></div>
+    	<div class="login">
+    		<form>
+    			<div class="login-name"><input id="username" class="txt-input txt-username" type="text" placeholder="手机号/邮箱" value="" name="username"><b class="input-close"></b></div>
+    			<div class="login-name"><input id="password" type="password" class="txt-input txt-password ciphertext" class="error-input" placeholder="密码" name="password"><b class="input-close" s></b></div>
+    			<div class="tip"><b>账号密码不正确，请重新输入</b></div>
+    			<div class="loging">
+    				<input type="button" value="登录"></input>
+    			</div>
+    			<div class="loging-load">
+    				<div class="loader">
+				        <div class="loader-inner line-spin-fade-loader">
+				          <div></div>
+				          <div></div>
+				          <div></div>
+				          <div></div>
+				          <div></div>
+				          <div></div>
+				          <div></div>
+				          <div></div>
+				        </div>
+				      </div>
+    				<input type="button" value="登录中..."></input>
+    			</div>
+    		</form>
+    	</div>
+    </div> 
+	<div class="footer">
+    		<p>眉州东坡集团</p>
+    		<p>copyright ©2016 by meizhoudongpo</p>
+	</div>
+    <div class="login-bg"></div>
+        <script type="text/javascript" src="js/jquery.1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/touchSwipe.min.js"></script> 
+        <script type="text/javascript" src="js/login.js"></script>
+    </body>
+</html>
